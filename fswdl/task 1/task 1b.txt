@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Arrays</h2>
+<p>The Array.reverse() method reverses the order of the elements in an array.</p>
+<p id="demo"></p>
+<script>
+const numbers = ["1","2","3","4"];
+document.getElementById("demo").innerHTML = numbers.reverse();
+</script>
+</body>
+</html>
